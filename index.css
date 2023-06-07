@@ -16,15 +16,15 @@
   width: 90%;
   /* max-width: 700px; */
   font-family: "Space Mono", monospace;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
   font-family: "Roboto", sans-serif;
 }
 .card-content {
   display: grid;
-  grid-template-columns: 10fr 90fr;
-  grid-template-rows: 0.2fr 1.4fr 1.4fr;
+  grid-template-columns: 20fr 80fr;
+  grid-template-rows: 0.2fr 1fr 1.8fr;
   /* margin: 10px; */
 }
 .card-content > div {
@@ -81,11 +81,20 @@
   display: flex;
   align-items: center;
 }
+.menu-container {
+  display: grid;
+  place-items: center;
+  padding: 0 30px;
+}
 .menu {
   width: 100%;
-  display: grid;
+  /* display: grid; */
   gap: 20px;
-  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+  /* padding: 20px 0; */
 }
 .menu-box {
   display: flex;
@@ -126,7 +135,7 @@
   gap: 10px;
 }
 .ibox-left-1 {
-  width: 43%;
+  width: 50%;
   height: 270px;
   background-color: #eff0ff;
   border-radius: 10px;
@@ -134,7 +143,7 @@
   display: flex;
 }
 .ibox-left-2 {
-  width: 17%;
+  width: 20%;
   height: 270px;
   background-color: #eff0ff;
   border-radius: 10px;
@@ -176,7 +185,7 @@ span {
   width: 32%;
   height: 270px;
   border-radius: 10px;
-  margin-left: 60px;
+  margin-left: 50px;
   /* border: 1px solid red; */
 }
 .box-right-grid {
@@ -274,7 +283,7 @@ span {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 50px;
   padding: 10px;
   color: white;
 }
@@ -314,4 +323,35 @@ span {
 
 #last {
   border-bottom: 0;
+}
+
+/* bottom left side */
+.inside-bbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.booknatext {
+  display: flex;
+  align-items: center;
+}
+.digits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.bar-text {
+  margin-bottom: 5px;
+}
+
+.bar-text-container {
+  margin-top: 20px;
+}
+
+.container-bbox {
+  display: grid;
+  place-items: center;
+  /* padding: 0 5px; */
 }
