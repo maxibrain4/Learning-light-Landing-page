@@ -34,6 +34,7 @@
 .maindiv {
   grid-column: 2/3;
   grid-row: 2/4;
+  width: 100%;
 }
 .logo-div {
   display: flex;
@@ -96,7 +97,8 @@
 
 /* main box */
 .inside-maindiv {
-  padding: 30px;
+  width: 90%;
+  padding: 20px;
 }
 .course-menu {
   display: flex;
@@ -117,13 +119,14 @@
 .first-big-box {
   margin-top: 50px;
   width: 100%;
+  /* border: 1px solid red; */
 }
 .box-left {
   display: flex;
   gap: 10px;
 }
 .ibox-left-1 {
-  width: 40%;
+  width: 43%;
   height: 270px;
   background-color: #eff0ff;
   border-radius: 10px;
@@ -131,7 +134,7 @@
   display: flex;
 }
 .ibox-left-2 {
-  width: 16%;
+  width: 17%;
   height: 270px;
   background-color: #eff0ff;
   border-radius: 10px;
@@ -170,10 +173,10 @@ span {
 
 /* four box */
 .box-right {
-  width: 30%;
+  width: 32%;
   height: 270px;
   border-radius: 10px;
-  margin-left: 50px;
+  margin-left: 60px;
   /* border: 1px solid red; */
 }
 .box-right-grid {
@@ -195,8 +198,120 @@ span {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 280px;
+  gap: 390px;
 }
 #theme {
   grid-column: 2/3;
+}
+
+/* middle container */
+.middle-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.top-teacher-arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 38%;
+}
+
+/* second big box */
+
+.second-big-box {
+  margin-top: 10px;
+}
+.inside-second-big-box {
+  width: 100%;
+  display: flex;
+}
+
+.second-left-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 170px 170px;
+  width: 60%;
+  gap: 22px;
+}
+.div1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  background: linear-gradient(to right, #5a61ea, #4f57dd, #4149d1, #373fb9);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 210px;
+}
+.div-text {
+  font-size: 27px;
+  color: hsl(0, 0%, 100%);
+}
+
+.bottomdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textdate2 {
+  color: hsl(0, 0%, 100%);
+}
+.description {
+  color: #ccc;
+}
+
+.timediv {
+  background-color: #32356a;
+  color: hsl(0, 0%, 100%);
+  padding: 5px;
+  border-radius: 10px;
+}
+.two-same-divs {
+  background-color: #5a61ea;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 10px;
+  color: white;
+}
+
+.smalltext {
+  font-size: 13px;
+  color: #ccc;
+}
+.nametext {
+  font-size: 14px;
+}
+.pname {
+  color: black;
+}
+.second-right-box {
+  width: 40%;
+  margin-left: 50px;
+  /* border: 1px solid red; */
+}
+.isr-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-bottom: 12px;
+}
+
+/* .item {
+  border: 1px solid red;
+} */
+
+.point {
+  font-size: 18px;
+  color: #5b5eba;
+}
+
+#last {
+  border-bottom: 0;
 }
