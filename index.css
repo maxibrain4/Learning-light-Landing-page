@@ -7,13 +7,14 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background-color: hsl(209, 100%, 93%);
+  /* background-color: hsl(209, 100%, 93%); */
   display: flex;
   justify-content: center;
   /* align-items: center; */
 }
 .card {
-  width: 90%;
+  width: 100%;
+  /* max-width: 1200px; */
   font-family: "Space Mono", monospace;
   /* border: 1px solid red; */
   border-radius: 15px;
@@ -113,7 +114,7 @@
 
 /* main box */
 .inside-maindiv {
-  width: 90%;
+  width: 100%;
   padding: 20px;
 }
 .course-menu {
