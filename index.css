@@ -302,7 +302,7 @@ span {
   display: flex;
   flex-direction: column;
   gap: 60px;
-  padding: 10px;
+  padding: 8px;
   color: hsl(0, 0%, 90%);
 }
 
