@@ -219,7 +219,7 @@ span {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 430px;
+  gap: 500px;
 }
 #theme {
   grid-column: 2/3;
